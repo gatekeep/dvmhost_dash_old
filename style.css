@@ -1,0 +1,208 @@
+body,
+font {
+    font: 12px verdana, arial, sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #edf0f5;
+    color: #000000;
+}
+
+.container {
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+
+.header {
+    background-color: #015E7D;
+    text-decoration: none;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+    text-align: left;
+    padding: 5px 0px 22px 0px;
+}
+
+.header a,
+.header a:link,
+.header a:visited,
+.header a:active {
+    color: #fff;
+    text-decoration: none;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    margin: 0px 10px 0px 0px;
+    position: relative;
+    float: right;
+}
+
+.nav {
+    float: left;
+    margin: 0;
+    padding: 3px 3px 3px 3px;
+    width: 215px;
+    background-color: #242d31;
+    font-weight: normal;
+    min-height: 100%;
+}
+
+.content {
+    margin: 0 0 0 221px;
+    padding: 1px 5px 5px 5px;
+    color: #000000;
+    background-color: #edf0f5;
+    text-align: center;
+}
+
+.contentwide {
+    padding: 5px 5px 5px 5px;
+    color: #000000;
+    background-color: #edf0f5;
+    text-align: center;
+}
+
+.footer {
+    padding: 10px 0 10px 0;
+    clear: both;
+}
+
+table {
+    vertical-align: middle;
+    text-align: center;
+    empty-cells: show;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-collapse: collapse;
+    border-color: #242d31;
+    border-style: solid;
+    border-spacing: 4px;
+    border-width: 2px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #242d31;
+    font-family: verdana, arial, sans-serif;
+    width: 100%;
+    white-space: nowrap;
+}
+
+table th {
+    font-family: "Lucidia Console", Monaco, monospace;
+    font-weight: normal;
+    text-shadow: 1px 1px #01485F;
+    text-decoration: none;
+    background-color: #02759B;
+    border: 1px solid #01485F;
+}
+
+table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+table tr:nth-child(odd) {
+    background-color: #d0d0d0;
+}
+
+table td {
+    color: #000000;
+    font-family: "Lucidia Console", Monaco, monospace;
+    text-decoration: none;
+    border: 1px solid #000000;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #0000e0;
+    font-weight: normal;
+}
+
+ul {
+    padding: 5px;
+    margin: 10px 0;
+    list-style: none;
+    float: left;
+}
+
+ul li {
+    float: left;
+    display: inline;
+    /*For ignore double margin in IE6*/
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    float: left;
+    color: #999;
+    cursor: pointer;
+    font: 900 14px/22px "Arial", Helvetica, sans-serif;
+}
+
+ul li a span {
+    margin: 0 10px 0 -10px;
+    padding: 1px 8px 5px 18px;
+    position: relative;
+    /*To fix IE6 problem (not displaying)*/
+    float: left;
+}
+
+h1 {
+    text-shadow: 2px 2px #303030;
+    text-align: center;
+}
+
+h1 > a,
+h1 > a:focus,
+h1 > a:active,
+h1 > a:link,
+h1 > a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+h1 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.table-col-white {
+    background-color: #fff;
+}
+
+.table-col-success {
+    background-color: #5cb85c;
+}
+
+.table-col-info {
+    background-color: #5bc0de;
+}
+
+.table-col-warn {
+    background-color: #cc6500;
+}
+
+.table-col-danger {
+    background-color: #d9534f;
+}
+
+.table-col-disabled {
+    background-color: #666;
+    color: #bbb;
+}
